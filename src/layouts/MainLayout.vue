@@ -10,35 +10,70 @@
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
-
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
+      <div class="q-px-lg q-pt-sm q-mb-md">
+          <div class="text-h4">
+            Auxiliar de historial
+          </div>
+          <div class="text-subtitle1">
+            Odontología
+          </div>
+      </div>
+      <q-img
+        src="img/historical.jpeg" 
+        class="header-image absolute-top"
+      />
     </q-header>
 
     <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-      content-class="bg-grey-1"
-    >
-      <q-list>
-        <q-item-label
-          header
-          class="text-grey-8"
-        >
-          Essential Links
-        </q-item-label>
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
+        v-model="leftDrawerOpen"
+        show-if-above
+        :width="250"
+        :breakpoint="600"
+      >
+        <q-scroll-area style="height: calc(100% - 192px); margin-top: 192px; border-right: 1px solid #ddd">
+          <q-list padding>
+            <q-item 
+              to="/"
+              exact
+              clickable 
+              v-ripple
+            >
+              <q-item-section avatar>
+                <q-icon name="list" />
+              </q-item-section>
+
+              <q-item-section>
+                Auxiliar
+              </q-item-section>
+            </q-item>
+
+            <q-item 
+              to="/help"
+              exact
+              clickable 
+              v-ripple
+            >
+              <q-item-section avatar>
+                <q-icon name="help" />
+              </q-item-section>
+
+              <q-item-section>
+                Información
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </q-scroll-area>
+
+        <q-img class="absolute-top" src="img/historical.jpeg" style="height: 192px">
+          <div class="absolute-bottom bg-transparent">
+            <q-avatar size="56px" class="q-mb-sm">
+              <img src="img/dentista.jpg">
+            </q-avatar>
+            <div class="text-weight-bold">Auxiliar</div>
+          </div>
+        </q-img>
+      </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -105,3 +140,11 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .header-image {
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    filter: grayscale(100%);
+  }
+</style>
