@@ -11,8 +11,8 @@
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
       </q-toolbar>
-      <div class="q-px-lg q-pt-sm q-mb-md">
-          <div class="text-h4">
+      <div class="q-px-lg q-mb-sm">
+          <div class="text-h5">
             Auxiliar de historial
           </div>
           <div class="text-subtitle1">
