@@ -28,7 +28,7 @@
           </q-card-section>
           <q-separator inset />
           <q-card-section>
-            <div class="text-weight-regular">
+            <div class="text-weight-medium">
               {{ answer.whyAnswer }}
             </div>
             <img 
@@ -46,7 +46,7 @@
         </q-card-section>
         <q-separator inset />
         <q-card-section>
-          <div class="text-weight-regular">
+          <div class="text-weight-medium">
             El odontodiagrama constituye desde el punto de vista clínico y legal, de una gran importancia ya que permite la identificación de un individuo gracias a los tratamientos odontológicos recibidos a lo largo de su vida. <br>
             <strong>Nomenclatura para el llenado del Odontodiagrama:</strong>
             <ul>
@@ -79,7 +79,7 @@
         </q-card-section>
         <q-separator inset />
         <q-card-section>
-          <div class="text-weight-regular">
+          <div class="text-weight-medium">
             Este análisis utiliza el valor de los anchos mesiodistales de los incisivos inferiores permanentes para predecir el tamaño MD de caninos y premolares no erupcionados: el valor de esta predicción es llamado en la literatura espacio requerido de caninos y premolares. Se representa en una tabla de probabilidades que se usan selectivamente de acuerdo al maxilar analizado y según el sexo del paciente.<br><br>
             El Método de Moyers dispone de Tablas de predicción del tamaño Mesio distal de caninos y premolares (o tamaño esperado de caninos y premolares) que se usan selectivamente de acuerdo al maxilar analizado y según el sexo del paciente.<br><br>
             Para realizar el análisis de dentición mixta de Moyers para obtener  la medida de los caninos y premolares según el percentil en el que se busque, Moyers recomendaba el uso de los percentiles 50 y 75.
@@ -114,7 +114,7 @@
             src="img/moyerFourth.png"
             style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2">
-            <div class="text-weight-regular">
+            <div class="text-weight-medium">
             <ul>
               <li>
                 Se resta el espacio disponible  del espacio requerido obteniendo la discrepancia (ED-ER: DISCREPANCIA) <br>
@@ -132,14 +132,14 @@
         </q-card-section>
         <q-separator inset />
         <q-card-section>
-          <div class="text-weight-regular">
+          <div class="text-weight-medium">
             La toma de la fotografía, el paciente debe estar de pie, asumiendo la posición natural de su cabeza,  la vista hacia el frente hacia un punto distante y a la altura de sus ojos.<br>
           </div>
           <img 
             src="img/terciosFirst.png"
             style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
-          <div class="text-weight-regular">
+          <div class="text-weight-medium">
             <strong>Se divide la cara en tres tercios.</strong><br>
             <ul>
               <li>El tercio superior va desde el trichion o línea del cabello hasta la glabela.</li>
@@ -151,7 +151,7 @@
             src="img/terciosSecond.png"
             style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
-          <div class="text-weight-regular">
+          <div class="text-weight-medium">
             El segundo estudio es el de los dos tercios inferiores, que va desde el punto nasión hasta el subnasal y de éste hasta el mentoniano.<br>
             <ul>
               <li>En el primer método los tercios son iguales, pero estas medidas tienen dos inconvenientes, uno de ellos es que la línea del cabello es muy variable y el otro es que la glabela es una referencia de localización subjetiva, sobre todo en aquellos casos donde se encuentra poco marcada.</li>

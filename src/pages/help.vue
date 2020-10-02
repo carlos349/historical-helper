@@ -1,10 +1,12 @@
 <template>
   <q-page class="q-pa-lg">
-    <h5 class="q-mt-none">
+    <div class="text-h5 q-mt-none">
       Ayuda
-    </h5>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit nulla sed facilis voluptatum cupiditate aperiam nemo officiis! Exercitationem aliquam, rem magni corrupti numquam, dolorum necessitatibus accusamus hic obcaecati, vel facere.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse, ut eligendi ab cumque distinctio perferendis sed qui, aliquam voluptatem aperiam ipsa tenetur tempora minima perspiciatis magnam at numquam unde!</p>
+    </div>
+    <div class="text-weight-medium q-mt-md" style="text-align: justify;">
+      Bienvenido al auxiliar de historias odontológicas, en la vista de (auxiliar) podrás buscar como completar el historial odontológico de tu paciente. <br> <br>
+      Al buscar una palabra de la pregunta, o la misma pregunta te daremos posibles respuestas. Dependiendo del caso de tu paciente. <br><br> Sólo hazle tu consulta al auxiliar.
+    </div>
   </q-page>
 </template>
 

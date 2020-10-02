@@ -40,7 +40,7 @@
               v-ripple
             >
               <q-item-section avatar>
-                <q-icon name="list" />
+                <q-icon name="content_paste" />
               </q-item-section>
 
               <q-item-section>
@@ -55,7 +55,7 @@
               v-ripple
             >
               <q-item-section avatar>
-                <q-icon name="help" />
+                <q-icon name="info" />
               </q-item-section>
 
               <q-item-section>
