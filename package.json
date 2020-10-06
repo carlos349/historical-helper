@@ -2,7 +2,7 @@
   "name": "historical-helper",
   "version": "0.0.1",
   "description": "Asistente de historiales clinicos odontologico",
-  "productName": "Tesis UJAP",
+  "productName": "Instructivo para HC de ortopedia UJAP",
   "author": "SYSWA <syswainfo@gmail.com>",
   "private": true,
   "scripts": {

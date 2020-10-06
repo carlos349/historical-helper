@@ -34,7 +34,7 @@
             <img 
             v-if="answer.imgAnswer !== ''"
               :src="'img/'+answer.imgAnswer"
-              style="width:100%;height:150px;margin-top:10px;"
+              style="width:100%;height:50vh;margin-top:10px;"
               class="rounded-borders shadow-2">
           </q-card-section>
         </q-card>
@@ -64,11 +64,11 @@
           </div>
           <img 
             src="img/odontometriaFirst.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2"><br>
           <img 
             src="img/odontometriaSecond.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2">
         </q-card-section>
       </q-card>
@@ -90,7 +90,7 @@
                 Medir el diámetro mesio – distal de los cuatro incisivos inferiores. <br>
                 <img 
                   src="img/moyerFirst.png"
-                  style="width:100%;height:150px;margin-top:10px;"
+                  style="width:100%;height:50vh;margin-top:10px;"
                   class="rounded-borders shadow-2">
               </li>
               <li>Se suma el ancho MD del IC  y IL derecho y luego los izquierdo se suma cada lado para determinar el espacio que ocupan, para dar la sumatoria de ERAnt. Tanto mandibular como maxilar.</li>
@@ -99,7 +99,7 @@
                 El siguiente paso es determinar el espacio disponible en el sector posterior.
                 <img 
                   src="img/moyerSecond.png"
-                  style="width:100%;height:150px;margin-top:10px;"
+                  style="width:100%;height:50vh;margin-top:10px;"
                   class="rounded-borders shadow-2">
               </li>
               <li>Se mide con un calibrador desde: distal de los segundos molares temporarios  o mesial de los molares permanentes, hasta mesial de los caninos temporario o distal de los laterales permanentes, se mide la distancia real existente. Este es el espacio disponible para los caninos y premolares permanentes.</li>
@@ -108,11 +108,11 @@
           </div>
           <img 
             src="img/moyerThird.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2"><br>
           <img 
             src="img/moyerFourth.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2">
             <div class="text-weight-medium">
             <ul>
@@ -137,7 +137,7 @@
           </div>
           <img 
             src="img/terciosFirst.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             <strong>Se divide la cara en tres tercios.</strong><br>
@@ -149,7 +149,7 @@
           </div>
           <img 
             src="img/terciosSecond.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             El segundo estudio es el de los dos tercios inferiores, que va desde el punto nasión hasta el subnasal y de éste hasta el mentoniano.<br>
@@ -161,8 +161,72 @@
           </div><br>
           <img 
             src="img/terciosThird.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:50vh;margin-top:10px;"
             class="rounded-borders shadow-2">
+        </q-card-section>
+      </q-card>
+      <q-card v-if="cefa" class="my-card q-mt-md">
+        <q-card-section>
+          <div class="text-h6">Explicación.</div>
+          <div class="text-subtitle2">Pregunta: Análisis cefalométrico</div>
+        </q-card-section>
+        <q-separator inset />
+        <q-card-section>
+          <div class="text-weight-medium">
+            La Radiografía Cefálica Lateral es una exposición lateral del cráneo del paciente, con la que podemos evaluar anomalías de desarrollo de las estructuras óseas y dentarias desde el plano sagital, relación de los maxilares individualmente y en conjunto, posición de los dientes, relación de tejidos blandos.<br>
+          </div>
+          <img 
+            src="img/cefaFirst.png"
+            style="width:100%;height:50vh;margin-top:10px;"
+            class="rounded-borders shadow-2"><br><br>
+          <div class="text-weight-medium">
+            <strong>Análisis de Steiner.</strong><br><br>
+            <strong>Esquelético maxilar:</strong><br>
+            -SNA: valor promedio 82o  ángulo formado por el plano silla-nasion y nasion-punto A.  Diagnostica el retrognatismo o prognatismo del maxilar, valor aumentado avance del maxilar y la disminución una posible deficiencia maxilar.<br>
+            <strong>Esquelético mandibular:</strong><br>
+            -SNB: valor promedio 80o  ángulo formado por la unión del plano silla-nasion-punto B. Diagnostica el retrognatismo o prognatismo mandibular, valor aumentado nos indica protrusión mandibular y disminución indicaría retrognatismo. <br>
+            -SND: valor promedio 76o/77o  ángulo formado por los planos silla-nasion y nasion-punto D. Relaciona la mandíbula con la base del cráneo en sentido anteroposterior, valor aumentado protrusión y disminución retrusión.<br>
+            <strong>Maxilar – mandibular</strong><br>
+            -ANB: valor promedio 2o  es la diferencia entre los ángulos SNA Y SNB, relaciona el maxilar con la mandíbula en sentido anteroposterior este ángulo nos da referencia para diagnosticar la clase esqueletal, cuando el valor es mayor a 4 nos indica una  disto-oclusión clase II esqueletal, menor que 0 nos indica mesio-oclusion   o clase III esqueletal y si es 2 clase I esqueletal.
+          </div>
+          <img 
+            src="img/steinerFirst.png"
+            style="width:100%;height:50vh;margin-top:10px;"
+            class="rounded-borders shadow-2"><br><br>
+          <div class="text-weight-medium">
+            <strong>Interdental</strong><br>
+            -1s-1i: valor promedio 135o  relación de los ejes mayores de los incisivos centrales superiores e inferiores, valor aumentado nos indica que los incisivos están rectos y valor disminuidos hay protrusión de los dientes.<br>
+            <strong>Dentoalveolar maxilar</strong><br>
+            -1s-NS: valor promedio 103o  relación dental y maxilar, valor aumentado nos indica protrusión dentaria con respecto a la base del craneal, valores menores nos indican retrusion dentaria con respecto a la base craneal.<br>
+            -1s NA: (grados) valor promedio 22o relaciona el incisivo central superior con respecto al plano nasion-A, valor aumentado protrusión dental y disminuido retrusion.<br>
+            -1s NA: (mm) valor promedio 4mm valor aumentado nos indica protrusión y disminución retrusion.<br>
+            <strong>Dentoalveolar mandibular</strong><br>
+            -1i PL. Mand: Valor promedio 90o  valor aumentado nos indica protrusión mayor del incisivo inferior y disminuido incisivos inferior recto o retruido.<br>
+            -1i NB: (grados) valor promedio 25o valor aumentado nos indica mayor inclinación vestibular y disminución menor inclinación vestibular lingual.<br>
+            -1i NB: (mm) valor promedio 4mm valor aumentado protrusión dental y disminuido retrusion dental.<br><br>
+            <strong>Análisis de Mcnamara</strong><br><br>
+            Es esta oportunidad se toma en cuenta el triángulo de mcnamara.  <br>
+            Los valores promedio de los puntos cefalométricos varían dependiendo de la edad del paciente, y se miden en milímetros.<br>
+            -Co-A (mm)<br>
+            -Co-Gn (mm)<br>
+            -Ena-Me (mm) <br>
+            Los valores se pueden reflejar aumentados o disminuidos.<br>
+            <img 
+            src="img/macnamaraFirst.png"
+            style="width:100%;height:50vh;margin-top:10px;"
+            class="rounded-borders shadow-2"><br><br>
+            <strong>Analisis de Rickets</strong><br><br>
+            <strong>Proporcion facial </strong><br>
+            -NS-GN : valor normal 67o indica direcciones de crecimiento del rostro, valor alto indica mordida abiertaretrusion del maxilar pacientes dolicofacial rotacion del maxilarhacia atrás. Disminucion crecimientohorizintal y aumentado crecimiento vertical.<br>
+            -NS-PL Mand.: valor normal 32o nos permiten relacionar el plano mandibular con respecto a la base cranel, valor mayor indican mordida abierta, retrusion de la mandibula pacientes dolicofaciales, valor disminuido indican mordida cerrada, labios cerrados, dimension vertical disminuida son pacientes braquifaciales. <br>
+            -FH-PL Mand.: valor normal 24o, valor aumentadoretrusion de la mandibula y disminuido mordida cerrada.<br><br>
+            <strong>Perfil facial </strong><br><br>
+            <strong>Linea E: </strong>indica la relacion entre los labios y relacion nariz menton. El labio inferior se apoya en la cara vestibular del incisivo la protusion de este diente producira un labio inferior protusivo, valores negativos indican que el labio esta por detrás del plano E.<br>
+            <strong>superior: </strong>valor normal -4mm .<br>
+            <strong>inferior: </strong>valor normal -2mm.<br>
+            Valores positivos protusion labial  / valores negativos retrusion <br>
+            <strong>NAP: </strong>valor normal 0o , angulo de convexidad facial, medido en tejido oseo si es aumentado es retrusion.<br>
+          </div>
         </q-card-section>
       </q-card>
     </div>
@@ -199,6 +263,7 @@ export default {
       odontodiagrama:false,
       tercios: false,
       moyer: false,
+      cefa: false, 
       dataFor: [
         {
           question: 'Insercion de frenillo',
@@ -450,24 +515,34 @@ export default {
           ]
         },
         {
-          question: 'Examen funcional',
+          question: 'Patron Masticatorio',
           answers: [
             {
-              posibleAnswer: 'Patrón Masticatorio.',
-              posible: 'Examen funcional.',
+              posibleAnswer: 'Explicación.',
+              posible: 'Patrón Masticatorio.',
               whyAnswer: 'Para observar que patrón masticatorio tiene el paciente es unilateral o bilateral puedes colocar una torunda de algodón de cada lado de la arcada y decirle al paciente que mastique, y el lado de trabajo te guiara a saber si es unilateral o bilateral.',
               imgAnswer: ''
-            },
+            }
+          ]
+        },
+        {
+          question: 'Apertura bucal',
+          answers: [
             {
-              posibleAnswer: 'Palpación de ganglios.',
-              posible: 'Examen funcional.',
-              whyAnswer: 'Debes palpar todos los ganglios del paciente y describir si ves alguna lesión.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Apertura bucal.',
-              posible: 'Examen funcional.',
+              posibleAnswer: 'Explicación.',
+              posible: 'Apertura bucal.',
               whyAnswer: 'La apetura máxima en niños es de 40mm.',
+              imgAnswer: ''
+            }
+          ]
+        },
+        {
+          question: 'Palpacion de ganglios',
+          answers: [
+            {
+              posibleAnswer: 'Explicación.',
+              posible: 'Palpación de ganglios.',
+              whyAnswer: 'Debes palpar todos los ganglios del paciente y describir si ves alguna lesión.',
               imgAnswer: ''
             }
           ]
@@ -586,40 +661,6 @@ export default {
           ]
         },
         {
-          question: 'Analisis cefalometrico',
-          answers: [
-            {
-              posibleAnswer: 'Explicación.',
-              posible: 'Análisis cefalometrico',
-              whyAnswer: 'La Radiografía Cefálica Lateral es una exposición lateral del cráneo del paciente, con la que podemos evaluar anomalías de desarrollo de las estructuras óseas y dentarias desde el plano sagital, relación de los maxilares individualmente y en conjunto, posición de los dientes, relación de tejidos blandos.',
-              imgAnswer: 'cefaFirst.png'
-            }
-          ]
-        },
-        {
-          question: 'Analisis de Steiner',
-          answers: [
-            {
-              posibleAnswer: 'Esquelético maxilar.',
-              posible: 'Análisis de Steiner',
-              whyAnswer: 'SNA: valor promedio 82°  ángulo formado por el plano silla-nasion y nasion-punto A.  Diagnostica el retrognatismo o prognatismo del maxilar, valor aumentado avance del maxilar y la disminución una posible deficiencia maxilar.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Esquelético mandibular.',
-              posible: 'Análisis de Steiner',
-              whyAnswer: 'SNB: valor promedio 80°  ángulo formado por la unión del plano silla-nasion-punto B. Diagnostica el retrognatismo o prognatismo mandibular, valor aumentado nos indica protrusión mandibular y disminución indicaría retrognatismo. SND: valor promedio 76o/77o  ángulo formado por los planos silla-nasion y nasion-punto D. Relaciona la mandíbula con la base del cráneo en sentido anteroposterior, valor aumentado protrusión y disminución retrusion.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Maxilar – mandibular.',
-              posible: 'Análisis de Steiner',
-              whyAnswer: 'ANB: valor promedio 2°  es la diferencia entre los ángulos SNA Y SNB, relaciona el maxilar con la mandíbula en sentido anteroposterior este ángulo nos da referencia para diagnosticar la clase esqueletal, cuando el valor es mayor a 4 nos indica una  disto-oclusión clase II esqueletal, menor que 0 nos indica mesio-oclusion o clase III esqueletal y si es 2 clase I esqueletal.',
-              imgAnswer: 'steinerFirst.png'
-            }
-          ]
-        },
-        {
           question: 'Interdental',
           answers: [
             {
@@ -672,75 +713,6 @@ export default {
               posibleAnswer: '1i NB (mm).',
               posible: 'Dentoalveolar maxilar',
               whyAnswer: 'Valor promedio 4mm valor aumentado protrusión dental y disminuido retrusión dental.',
-              imgAnswer: ''
-            }
-          ]
-        },
-        {
-          question: 'Analisis de Mcnamara',
-          answers: [
-            {
-              posibleAnswer: '1i PL. Mand.',
-              posible: 'Análisis de Mcnamara',
-              whyAnswer: 'Es esta oportunidad se toma en cuenta el triángulo de mcnamara. Los valores promedio de los puntos cefalometricos varían dependiendo de la edad del paciente, y se miden en milímetros. -Co-A (mm) -Co-Gn (mm) -Ena-Me (mm) Los valores se pueden reflejar aumentados o disminuidos.',
-              imgAnswer: 'macnamaraFirst.png'
-            }
-          ]
-        },
-        {
-          question: 'Analisis de Rickets (Proporcion facial)',
-          answers: [
-            {
-              posibleAnswer: 'NS-GN.',
-              posible: 'Análisis de Rickets (Proporcion facial)',
-              whyAnswer: 'Valor normal 67° indica direcciones de crecimiento del rostro, valor alto indica mordida abiertaretrusion del maxilar pacientes dolicofacial rotacion del maxilarhacia atrás. Disminucion crecimientohorizintal y aumentado crecimiento vertical.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'NS-PL Mand.',
-              posible: 'Análisis de Rickets (Proporcion facial)',
-              whyAnswer: 'Valor normal 32° nos permiten relacionar el plano mandibular con respecto a la base cranel, valor mayor indican mordida abierta, retrusion de la mandibula pacientes dolicofaciales, valor disminuido indican mordida cerrada, labios cerrados, dimension vertical disminuida son pacientes braquifaciales.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'FH-PL Mand.',
-              posible: 'Análisis de Rickets (Proporcion facial)',
-              whyAnswer: 'Valor normal 24°, valor aumentado retrusión de la mandibula y disminuido mordida cerrada..',
-              imgAnswer: ''
-            }
-          ]
-        },
-        {
-          question: 'Perfil facial',
-          answers: [
-            {
-              posibleAnswer: 'Linea E.',
-              posible: 'Perfil facial',
-              whyAnswer: 'Indica la relacion entre los labios y relacion nariz menton. El labio inferior se apoya en la cara vestibular del incisivo la protusion de este diente producira un labio inferior protusivo, valores negativos indican que el labio esta por detrás del plano E.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Superior.',
-              posible: 'Perfil facial',
-              whyAnswer: 'valor normal -4mm.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Inferior.',
-              posible: 'Perfil facial',
-              whyAnswer: 'Valor normal -2mm.',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'Sin descripción.',
-              posible: 'Perfil facial',
-              whyAnswer: 'Valores positivos protusion labial  / valores negativos retrusión .',
-              imgAnswer: ''
-            },
-            {
-              posibleAnswer: 'NAP.',
-              posible: 'Perfil facial',
-              whyAnswer: 'valor normal 0° , angulo de convexidad facial, medido en tejido oseo si es aumentado es retrusión.',
               imgAnswer: ''
             }
           ]
@@ -988,6 +960,17 @@ export default {
           ]
         },
         {
+          question: 'Analisis cefalometrico',
+          answers: [
+            {
+              posibleAnswer: '',
+              posible: 'Analisis cefalometrico',
+              whyAnswer: '',
+              imgAnswer: ''
+            }
+          ]
+        },
+        {
           question: 'Analisis de los tercios faciales',
           answers: [
             {
@@ -1159,10 +1142,13 @@ export default {
       this.data = []
       this.lookingFor = true
       this.odontodiagrama = false
+      this.moyer = false
+      this.cefa = false
+      this.tercios = false
       var finded = false
       for (let index = 0; index < this.dataFor.length; index++) {
         const element = this.dataFor[index];
-        if (element.question.toLowerCase().indexOf(this.find.toLowerCase()) >= 0) {
+        if (element.question.toLowerCase().indexOf(this.removeAccents(this.find.toLowerCase())) >= 0) {
           for (let j = 0; j < element.answers.length; j++) {
             this.data.push(element.answers[j])
           }
@@ -1180,6 +1166,9 @@ export default {
         if (odonto.posible == 'Analisis de moyers') {
           this.moyer = true
         }
+        if (odonto.posible == 'Analisis cefalometrico') {
+          this.cefa = true
+        }
       }
       if (finded) {
         setTimeout(() => {
@@ -1193,7 +1182,10 @@ export default {
           this.noQuestions = false
         }, 500);
       }
-    }
+    },
+    removeAccents(str) {
+      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    } 
   }
 }
 </script>

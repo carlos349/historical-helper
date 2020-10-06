@@ -109,8 +109,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Tesis UJAP`,
-        short_name: `Tesis UJAP`,
+        name: `Instructivo para HC de ortopedia UJAP`,
+        short_name: `instructivo HCO UJAP`,
         description: `Asistente de historiales clinicos odontologico`,
         display: 'standalone',
         orientation: 'portrait',
