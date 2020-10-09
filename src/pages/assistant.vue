@@ -34,7 +34,7 @@
             <img 
             v-if="answer.imgAnswer !== ''"
               :src="'img/'+answer.imgAnswer"
-              style="width:100%;height:50vh;margin-top:10px;"
+              style="width:100%;height:150px;margin-top:10px;"
               class="rounded-borders shadow-2">
           </q-card-section>
         </q-card>
@@ -64,11 +64,11 @@
           </div>
           <img 
             src="img/odontometriaFirst.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br>
           <img 
             src="img/odontometriaSecond.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2">
         </q-card-section>
       </q-card>
@@ -90,7 +90,7 @@
                 Medir el diámetro mesio – distal de los cuatro incisivos inferiores. <br>
                 <img 
                   src="img/moyerFirst.png"
-                  style="width:100%;height:50vh;margin-top:10px;"
+                  style="width:100%;height:150px;margin-top:10px;"
                   class="rounded-borders shadow-2">
               </li>
               <li>Se suma el ancho MD del IC  y IL derecho y luego los izquierdo se suma cada lado para determinar el espacio que ocupan, para dar la sumatoria de ERAnt. Tanto mandibular como maxilar.</li>
@@ -99,7 +99,7 @@
                 El siguiente paso es determinar el espacio disponible en el sector posterior.
                 <img 
                   src="img/moyerSecond.png"
-                  style="width:100%;height:50vh;margin-top:10px;"
+                  style="width:100%;height:150px;margin-top:10px;"
                   class="rounded-borders shadow-2">
               </li>
               <li>Se mide con un calibrador desde: distal de los segundos molares temporarios  o mesial de los molares permanentes, hasta mesial de los caninos temporario o distal de los laterales permanentes, se mide la distancia real existente. Este es el espacio disponible para los caninos y premolares permanentes.</li>
@@ -108,11 +108,11 @@
           </div>
           <img 
             src="img/moyerThird.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br>
           <img 
             src="img/moyerFourth.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2">
             <div class="text-weight-medium">
             <ul>
@@ -137,7 +137,7 @@
           </div>
           <img 
             src="img/terciosFirst.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             <strong>Se divide la cara en tres tercios.</strong><br>
@@ -149,7 +149,7 @@
           </div>
           <img 
             src="img/terciosSecond.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             El segundo estudio es el de los dos tercios inferiores, que va desde el punto nasión hasta el subnasal y de éste hasta el mentoniano.<br>
@@ -161,7 +161,7 @@
           </div><br>
           <img 
             src="img/terciosThird.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2">
         </q-card-section>
       </q-card>
@@ -177,7 +177,7 @@
           </div>
           <img 
             src="img/cefaFirst.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             <strong>Análisis de Steiner.</strong><br><br>
@@ -191,7 +191,7 @@
           </div>
           <img 
             src="img/steinerFirst.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             <strong>Interdental</strong><br>
@@ -213,7 +213,7 @@
             Los valores se pueden reflejar aumentados o disminuidos.<br>
             <img 
             src="img/macnamaraFirst.png"
-            style="width:100%;height:50vh;margin-top:10px;"
+            style="width:100%;height:150px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
             <strong>Analisis de Rickets</strong><br><br>
             <strong>Proporcion facial </strong><br>
