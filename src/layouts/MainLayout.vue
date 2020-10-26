@@ -13,7 +13,7 @@
       </q-toolbar>
       <div class="q-px-lg q-mb-sm">
           <div class="text-h5">
-            Auxiliar de historial
+            HC de Ortopedia y Ortodoncia
           </div>
           <div class="text-subtitle1">
             Odontología

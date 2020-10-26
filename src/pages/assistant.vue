@@ -177,7 +177,7 @@
           </div>
           <img 
             src="img/cefaFirst.png"
-            style="width:100%;height:150px;margin-top:10px;"
+            style="width:100%;height:200px;margin-top:10px;"
             class="rounded-borders shadow-2"><br><br>
           <div class="text-weight-medium">
             <strong>Análisis de Steiner.</strong><br><br>
